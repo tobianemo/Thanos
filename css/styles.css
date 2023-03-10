@@ -1,0 +1,172 @@
+/* CSS Document */
+
+/* F o n t s
+
+font-family: 'Anton', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Gajraj One', cursive;
+
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #704A8E;
+}
+
+nav {
+	background-color: #000;
+	opacity: 75%;
+	min-height: 100px;
+	border-bottom: 5px solid #fff;
+}
+
+nav ul {
+	list-style-type: none;
+	font-size: 2.5em;
+}
+
+nav ul li {
+	float: left;
+	padding: 1.5% 2% 2% 8%;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+
+nav ul li a:hover {
+	color: #ff0000;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+header {
+	background-image: url("../images/thanosHome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+header h1 {
+	font-size: 7em;
+	padding-top: 13%;
+	padding-left: 9%;
+	font-family: 'Bangers', cursive;
+}
+
+h2 {
+	
+}
+
+main {
+	background-image: url("../images/main-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+	border-top: 10px solid #14091e;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: #856F46;
+	max-width: 75%;
+	border: 5px double #14091e;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 5em;
+	padding: 0.5%;
+	font-family: 'Gajraj One', cursive;
+	color: #000;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #FFE9A4;
+}
+
+#container p {
+	padding: 5% 5% 2%;
+	font-size: 2em;
+	font-family: 'Cinzel', serif;
+}
+
+#container img {
+	width: 80%;
+	margin-left: 120px;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+th {
+	font-family: 'Bungee Shade', cursive;
+}
+
+tr {
+	font-family: 'Bangers', cursive;
+}
+
+td {
+	font-size: 1.5em;
+	padding: 1.5%;
+}
+
+#email, #fName, #lName {
+	padding-right: 80%;
+	padding-top: 2%;
+	border-radius: 10px 10px;
+	border: 2px solid #000;
+}
+
+.btn {
+	font-family: 'Bangers', cursive;
+	padding: 2%;
+	font-size: 2em;
+	border-radius: 10px 10px;
+	border: 2px solid #000;
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: #ff0000;
+}
+
+footer {
+	text-align: center;
+	border-top: 10px solid #14091E;
+	min-height: 250px;
+}
+
+footer p {
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
